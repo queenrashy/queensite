@@ -1,0 +1,333 @@
+
+@import"https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900 &display=swap";
+nav {
+    width: 100%;
+    height: 90px;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+    position: fixed;
+    background: rgb(249, 244, 244);
+}
+nav .container {
+    width: 87%;
+    display: flex;
+    gap: 4rem;
+    align-content: center;
+}
+nav .container .fold {
+    display: flex;
+}
+nav .btn {
+    display: none;
+}
+nav .container .carlogo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #111010;
+
+}
+nav .container .navbar-menu {
+    display: flex;
+    gap: 5rem;
+    margin-top: 1.5rem;
+}
+nav .container .navbar-menu li a {
+    color: #0f0e0e;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+nav .container .navbar-menu li a:hover {
+    color: white;
+    transition: all 1s ease;
+}
+nav .container .Inform  {
+    margin: 0.5rem 0 0 4rem;
+}
+nav .container .Inform .searchmenu {
+    position: relative;
+}
+nav .container .Inform .searchmenu input {
+    width: 24rem;
+    height: 3.4rem;
+    background: #dbccb8;
+    border-radius: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+nav .container .Inform .searchmenu .icon {
+    position: absolute;
+}
+nav .container .Inform .searchmenu .one {
+    left: 2rem;
+    top: 1rem;
+    background: rgba(0, 0, 0, 0);
+}
+nav .container .Inform .searchmenu .two {
+    right: 2rem;
+    top: 1rem;
+    background: rgba(0, 0, 0, 0);
+}
+nav .container .right-icon {
+    display: flex;
+    gap: 1rem
+}
+nav .container .right-icon div i {
+    padding-left: 4rem;
+    font-size: 2rem;
+    color: #493e3e;
+}
+nav .container .right-icon div h5 {
+    padding-left: 4rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #0d0d0d;
+
+}
+.Bobit1 {
+    background: url("/images/car1.jpeg");
+    padding: 6rem 7rem;
+    background-size: cover;
+    width: 100%;
+    height: 97vh;
+}
+.Bobit1 .container {
+    margin-top: 15rem;
+    margin-left: 1rem;
+}
+.Bobit1 .container h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.Bobit1 .container p {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.Bobit1 .container button {
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    background: #1bcfa8;
+    color: black;
+    font-weight: bold;
+}
+.Bobit2 {
+    padding: 6rem 0;
+    background: white;
+}
+.Bobit2 .container .h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.Bobit2 .container .fold {
+    width: 88%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.Bobit2 .container article {
+    width: 30.28rem;
+    height: 45rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: -5px 10px 40px #d9cdcd, 5px 10px 20px white;
+}
+.Bobit2 .container article h1,
+.Bobit2 .container article h3 {
+    margin-left: 4rem;
+    color: #0b0a0a;
+}
+.Bobit2 .container article h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.Bobit2 .container article h3 {
+    margin-bottom: 1rem;
+}
+.Bobit2 .container article .big {
+    height: 20rem;
+}
+.Bobit2 .container article ul {
+    margin-left: 5rem;
+}
+.Bobit2 .container article ul li {
+    list-style: outside;
+    font-size: 1.5rem;
+    color: rgb(11, 11, 11);
+    font-weight: bold;
+}
+.Bobit2 .container article img {
+    width: 30.3rem;
+    border-radius: 2rem;
+}
+.Bobit3 {
+    padding: 3rem;
+    background: rgb(167, 171, 171);
+}
+.Bobit3 .container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Bobit3 .container div h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.Bobit3 .container div p {
+    color: #fff;
+    font-size: 1.7rem;
+}
+.Bobit3 .container div button {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #1bcfa8;
+    border-radius: 1rem;
+}
+.Bobit3 .container .img img {
+    width: 54rem;
+    border-radius: 2rem;
+}
+.Bobit4 {
+    background: #020202;
+    padding: 4rem;
+}
+.Bobit4 .container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}
+.Bobit4 .container .img img {
+    width: 54rem;
+    border-radius: 2rem;
+}
+.Bobit4 .container .write-up h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+.Bobit4 .container .write-up p {
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Bobit4 .container .write-up .write-up-2 {
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+.Bobit4 .container .write-up button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #1bcfa8;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container {
+    width: 82%;
+    margin: 0 auto;
+}
+@media screen and(max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    nav .container .carlogo {
+        width: 30rem;
+    }
+    nav .container .btn {
+        display: inline-block;
+        background: rgba(0, 0, 0, 0);
+        color: #1bcfa8;
+        font-size: 4rem;
+        cursor: pointer;
+        margin-left: 30rem;
+    }
+    nav .container .flip {
+        margin-left: 30rem;
+    }
+    nav .container .fold {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        display: none;
+    }
+    nav .container .fold .right-icon {
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+    nav .container .fold .navbar-menu {
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+    .Bobit1 {
+        height: 55vh;
+    }
+    .Bobit1 .container div {
+        margin-top: -5rem;
+    }
+    .Bobit2 .container .fold {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    .Bobit3 .container {
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+    }
+    .Bobit4 .container {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and(max-width: 600px) {
+    .container {
+        width: 92%;
+    }
+    .Bobit1 {
+        height: 100vh;
+    }
+    .Bobit2 .container .fold {
+        grid-template-columns: 1fr;
+    }
+    .Bobit3 .container {
+        grid-template-columns: 1fr;
+    }
+    .Bobit3 .container .img img {
+        width: 30rem;
+    }
+    .Bobit4 .container {
+        grid-template-columns: 1fr;
+    }
+    .Bobit4 .container .img img {
+        width: 30rem;
+    }
+}
+
